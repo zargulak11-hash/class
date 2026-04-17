@@ -8,6 +8,7 @@
     --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono",
       "Courier New", monospace;
     --spacing: 0.25rem;
+    --font-weight-normal: 400;
     --font-weight-medium: 500;
     --font-weight-semibold: 600;
     --font-weight-bold: 700;
@@ -241,6 +242,9 @@
   .mt-\[100px\] {
     margin-top: 100px;
   }
+  .mt-\[110px\] {
+    margin-top: 110px;
+  }
   .mt-\[150px\] {
     margin-top: 150px;
   }
@@ -288,6 +292,9 @@
   }
   .w-\[2px\] {
     width: 2px;
+  }
+  .w-\[3\] {
+    width: 3;
   }
   .w-\[33px\] {
     width: 33px;
@@ -357,6 +364,15 @@
   }
   .w-\[303px\] {
     width: 303px;
+  }
+  .w-\[305px\] {
+    width: 305px;
+  }
+  .w-\[312px\] {
+    width: 312px;
+  }
+  .w-\[316px\] {
+    width: 316px;
   }
   .w-\[317px\] {
     width: 317px;
@@ -619,6 +635,10 @@
     --tw-font-weight: var(--font-weight-medium);
     font-weight: var(--font-weight-medium);
   }
+  .font-normal {
+    --tw-font-weight: var(--font-weight-normal);
+    font-weight: var(--font-weight-normal);
+  }
   .font-semibold {
     --tw-font-weight: var(--font-weight-semibold);
     font-weight: var(--font-weight-semibold);
@@ -724,6 +744,11 @@
   .lg\:mt-\[100px\] {
     @media (width >= 64rem) {
       margin-top: 100px;
+    }
+  }
+  .lg\:mt-\[110px\] {
+    @media (width >= 64rem) {
+      margin-top: 110px;
     }
   }
   .lg\:block {
@@ -836,9 +861,24 @@
       width: 400px;
     }
   }
+  .lg\:w-\[414px\] {
+    @media (width >= 64rem) {
+      width: 414px;
+    }
+  }
   .lg\:w-\[434px\] {
     @media (width >= 64rem) {
       width: 434px;
+    }
+  }
+  .lg\:w-\[455px\] {
+    @media (width >= 64rem) {
+      width: 455px;
+    }
+  }
+  .lg\:w-\[456px\] {
+    @media (width >= 64rem) {
+      width: 456px;
     }
   }
   .lg\:w-\[470px\] {
