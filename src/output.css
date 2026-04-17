@@ -256,6 +256,9 @@
   .h-\[52px\] {
     height: 52px;
   }
+  .h-\[85px\] {
+    height: 85px;
+  }
   .h-\[139px\] {
     height: 139px;
   }
@@ -312,6 +315,12 @@
   }
   .w-\[262px\] {
     width: 262px;
+  }
+  .w-\[270px\] {
+    width: 270px;
+  }
+  .w-\[277px\] {
+    width: 277px;
   }
   .w-\[280px\] {
     width: 280px;
@@ -385,8 +394,14 @@
   .gap-\[10px\] {
     gap: 10px;
   }
+  .gap-\[10x\] {
+    gap: 10x;
+  }
   .gap-\[15px\] {
     gap: 15px;
+  }
+  .gap-\[15x\] {
+    gap: 15x;
   }
   .gap-\[20px\] {
     gap: 20px;
@@ -399,6 +414,30 @@
   }
   .gap-\[50px\] {
     gap: 50px;
+  }
+  .gap-\[60px\] {
+    gap: 60px;
+  }
+  .gap-\[70px\] {
+    gap: 70px;
+  }
+  .gap-\[80px\] {
+    gap: 80px;
+  }
+  .gap-\[100\] {
+    gap: 100;
+  }
+  .gap-\[100px\] {
+    gap: 100px;
+  }
+  .gap-\[120px\] {
+    gap: 120px;
+  }
+  .gap-\[130px\] {
+    gap: 130px;
+  }
+  .gap-\[140px\] {
+    gap: 140px;
   }
   .gap-\[150px\] {
     gap: 150px;
@@ -415,8 +454,14 @@
   .gap-\[430px\] {
     gap: 430px;
   }
+  .rounded {
+    border-radius: 0.25rem;
+  }
   .rounded-\[5px\] {
     border-radius: 5px;
+  }
+  .rounded-\[10px\] {
+    border-radius: 10px;
   }
   .rounded-\[37px\] {
     border-radius: 37px;
@@ -523,8 +568,17 @@
     --tw-font-weight: var(--font-weight-semibold);
     font-weight: var(--font-weight-semibold);
   }
+  .text-\[\#252B42\] {
+    color: #252B42;
+  }
   .text-\[\#737373\] {
     color: #737373;
+  }
+  .text-\[b\] {
+    color: b;
+  }
+  .text-\[black\] {
+    color: black;
   }
   .text-\[px\] {
     color: px;
@@ -579,9 +633,19 @@
       margin-top: calc(var(--spacing) * 70);
     }
   }
+  .lg\:mt-\[50px\] {
+    @media (width >= 64rem) {
+      margin-top: 50px;
+    }
+  }
   .lg\:mt-\[70px\] {
     @media (width >= 64rem) {
       margin-top: 70px;
+    }
+  }
+  .lg\:mt-\[80px\] {
+    @media (width >= 64rem) {
+      margin-top: 80px;
     }
   }
   .lg\:mt-\[100px\] {
@@ -602,6 +666,11 @@
   .lg\:hidden {
     @media (width >= 64rem) {
       display: none;
+    }
+  }
+  .lg\:h-\[82px\] {
+    @media (width >= 64rem) {
+      height: 82px;
     }
   }
   .lg\:h-\[355px\] {
@@ -637,6 +706,26 @@
   .lg\:w-\[58px\] {
     @media (width >= 64rem) {
       width: 58px;
+    }
+  }
+  .lg\:w-\[210px\] {
+    @media (width >= 64rem) {
+      width: 210px;
+    }
+  }
+  .lg\:w-\[218px\] {
+    @media (width >= 64rem) {
+      width: 218px;
+    }
+  }
+  .lg\:w-\[233px\] {
+    @media (width >= 64rem) {
+      width: 233px;
+    }
+  }
+  .lg\:w-\[239px\] {
+    @media (width >= 64rem) {
+      width: 239px;
     }
   }
   .lg\:w-\[300\] {
@@ -729,6 +818,16 @@
       gap: 0px;
     }
   }
+  .lg\:gap-\[10px\] {
+    @media (width >= 64rem) {
+      gap: 10px;
+    }
+  }
+  .lg\:gap-\[20px\] {
+    @media (width >= 64rem) {
+      gap: 20px;
+    }
+  }
   .lg\:gap-\[350px\] {
     @media (width >= 64rem) {
       gap: 350px;
@@ -755,9 +854,39 @@
       border-width: 1px;
     }
   }
+  .lg\:border-\[\#BDBDBD\] {
+    @media (width >= 64rem) {
+      border-color: #BDBDBD;
+    }
+  }
   .lg\:border-\[\#F2F2F2\] {
     @media (width >= 64rem) {
       border-color: #F2F2F2;
+    }
+  }
+  .lg\:bg-\[\#9f87\*\*\:87\] {
+    @media (width >= 64rem) {
+      background-color: #9f87**:87;
+    }
+  }
+  .lg\:bg-\[\#9f8787\] {
+    @media (width >= 64rem) {
+      background-color: #9f8787;
+    }
+  }
+  .lg\:bg-\[\#ffffff00\] {
+    @media (width >= 64rem) {
+      background-color: #ffffff00;
+    }
+  }
+  .lg\:bg-\[\#ffffff\] {
+    @media (width >= 64rem) {
+      background-color: #ffffff;
+    }
+  }
+  .lg\:bg-\[white\] {
+    @media (width >= 64rem) {
+      background-color: white;
     }
   }
   .lg\:p-0 {
@@ -790,6 +919,16 @@
       text-align: start;
     }
   }
+  .lg\:text-\[14px\] {
+    @media (width >= 64rem) {
+      font-size: 14px;
+    }
+  }
+  .lg\:text-\[16px\] {
+    @media (width >= 64rem) {
+      font-size: 16px;
+    }
+  }
   .lg\:text-\[40px\] {
     @media (width >= 64rem) {
       font-size: 40px;
@@ -809,6 +948,11 @@
   .lg\:text-\[\#737373\] {
     @media (width >= 64rem) {
       color: #737373;
+    }
+  }
+  .lg\:text-\[white\] {
+    @media (width >= 64rem) {
+      color: white;
     }
   }
 }
